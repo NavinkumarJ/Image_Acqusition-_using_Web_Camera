@@ -39,7 +39,7 @@ import cv2
 videoCaptureObject = cv2.VideoCapture(0)
 while (True):
     ret,frame = videoCaptureObject.read()
-    cv2.imwrite("yohesh.jpeg",frame)
+    cv2.imwrite("navin.jpeg",frame)
     result = False
 videoCaptureObject.release()
 cv2.destroyAllWindows()
@@ -113,7 +113,7 @@ cv2.destroyAllWindows()
 ## OUTPUT:
 
 ### i) Write the frame as JPG image
-![Screenshot 2024-02-27 110034](https://github.com/yoheshkumar/Image_Acqusition-_using_Web_Camera/assets/119393568/c3e5bf15-bdc2-46b8-a49d-4cd57591c385)
+![dipt](https://github.com/NavinkumarJ/Image_Acqusition-_using_Web_Camera/assets/115530758/12bd508e-3063-40d1-8ecb-65f22b25dfd5)
 
 
 
